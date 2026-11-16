@@ -69,19 +69,12 @@
 - No overselling under concurrent orders: pessimistic `SELECT ... FOR UPDATE` locks + `@Version` optimistic locking
 - Role-based access across 4 roles with `@PreAuthorize`, warehouse-scoped analytics and CSV/PDF reports
 
-### 🏋️ [RepForge — Offline-First AI Workout Tracker](https://github.com/vamshi-987/repforge-ai-fitness-tracker) 🚧
-`FastAPI` `SQLAlchemy 2 (async)` `PostgreSQL` `Redis` `Celery` `Expo (React Native)` `TypeScript` `SQLite` `Claude API`
+### 🧑‍🎓 [FaceSure — Face-Verified Campus Gate Pass System](https://github.com/vamshi-987/facesure)
+`FastAPI` `InsightFace` `ONNX Runtime` `MongoDB` `Redis` `React` `Tailwind` `Docker`
 
-- Offline-first mobile app (SQLite + Drizzle) that syncs with a FastAPI backend
-- AI food photo/text parsing and coaching, while every number (calories, targets, weights) comes from deterministic services, not the LLM
-- Celery workers, Alembic migrations, strict mypy + pytest, and GitHub Actions CI for backend and mobile
-
-### ♻️ [ScrapBid — Scrap Marketplace for India](https://github.com/vamshi-987/ScrapBid) 🚧
-`Django 5.2` `Django REST Framework` `GeoDjango` `PostgreSQL + PostGIS` `React 19` `TypeScript` `Caddy` `Docker`
-
-- Sellers list scrap, compare offers from verified nearby dealers and schedule a pickup; final payout = verified weight × agreed rate
-- Phone OTP login, S3-compatible photo storage (MinIO locally, AWS S3 in production), location queries with PostGIS
-- Fully Dockerized (7 services behind Caddy) with GitHub Actions running lint and tests on every push
+- Students request outings, mentors/HODs approve, and guards verify the student's face at the gate
+- Role-based system for students, faculty, HODs, guards and admins, with SMS alerts to parents when a student leaves campus
+- Rate limiting, Prometheus metrics and Sentry monitoring on the API
 
 ### 💬 [Chirp — Real-Time Instant Messaging Platform](https://github.com/vamshi-987/Chirp)
 `Node.js` `Express` `MongoDB` `Redis` `Socket.io` `React 18` `Cloudinary`
@@ -90,12 +83,23 @@
 - Online presence, unread indicators, image messages via Cloudinary CDN
 - Two-step OTP registration with Redis (10-min TTL, 5-attempt limit)
 
-### 🧑‍🎓 [FaceSure — Face-Verified Campus Gate Pass System](https://github.com/vamshi-987/facesure)
-`FastAPI` `InsightFace` `ONNX Runtime` `MongoDB` `Redis` `React` `Tailwind` `Docker`
+### 🏋️ [RepForge — Offline-First AI Workout Tracker](https://github.com/vamshi-987/repforge-ai-fitness-tracker)
+![In Progress](https://img.shields.io/badge/status-in%20progress-orange?style=flat-square)
 
-- Students request outings, mentors/HODs approve, and guards verify the student's face at the gate
-- Role-based system for students, faculty, HODs, guards and admins, with SMS alerts to parents when a student leaves campus
-- Rate limiting, Prometheus metrics and Sentry monitoring on the API
+`FastAPI` `SQLAlchemy 2 (async)` `PostgreSQL` `Redis` `Celery` `Expo (React Native)` `TypeScript` `SQLite` `Claude API`
+
+- Offline-first mobile app (SQLite + Drizzle) that syncs with a FastAPI backend
+- AI food photo/text parsing and coaching, while every number (calories, targets, weights) comes from deterministic services, not the LLM
+- Celery workers, Alembic migrations, strict mypy + pytest, and GitHub Actions CI for backend and mobile
+
+### ♻️ [ScrapBid — Scrap Marketplace for India](https://github.com/vamshi-987/ScrapBid)
+![In Progress](https://img.shields.io/badge/status-in%20progress-orange?style=flat-square)
+
+`Django 5.2` `Django REST Framework` `GeoDjango` `PostgreSQL + PostGIS` `React 19` `TypeScript` `Caddy` `Docker`
+
+- Sellers list scrap, compare offers from verified nearby dealers and schedule a pickup; final payout = verified weight × agreed rate
+- Phone OTP login, S3-compatible photo storage (MinIO locally, AWS S3 in production), location queries with PostGIS
+- Fully Dockerized (7 services behind Caddy) with GitHub Actions running lint and tests on every push
 
 ---
 
