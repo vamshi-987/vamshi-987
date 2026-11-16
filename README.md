@@ -108,20 +108,19 @@ Solving DSA problems in Java → [LeetCode solutions repo](https://github.com/va
 ## 📊 GitHub Statistics
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=vamshi-987&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vamshi-987&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="./metrics/stats.svg" alt="GitHub stats" />
 </p>
 
 ## 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=vamshi-987&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=vamshi-987&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 </p>
 
-## 🏆 GitHub Trophies
+## 🏆 GitHub Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=vamshi-987&theme=tokyonight&no-frame=true&row=1&column=6" />
+  <img src="./metrics/achievements.svg" alt="GitHub achievements" />
 </p>
 
 ---
@@ -129,7 +128,7 @@ Solving DSA problems in Java → [LeetCode solutions repo](https://github.com/va
 ## 🤝 Let's Connect
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/vamshi-vardhan-26b440285">
+  <a href="https://www.linkedin.com/in/vamshi-vardhan-26b440285/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:vamshivardhan987@gmail.com">
